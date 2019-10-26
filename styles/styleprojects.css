@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+    color: white;
+    animation-name:visiblity;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+.row {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 80px;
+    width:100%;
+
+  }
+
+  .row p{
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  
+  .column {
+    max-width: 25%;
+    padding: 0 4px; 
+  }
+  
+  .column img {
+    margin-top: 8px;
+    margin-bottom:4px ;
+    width: 100%;
+    
+  }
+
+  .column img:hover{
+      transform: scale(1.5);
+  }
+
+  
+
+  footer{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    bottom: 0;
+    margin-top: 200px;
+    z-index: -1;
+}
+
+
+@keyframes visiblity
+      {
+        0% {  opacity: 0; }
+        100% {   opacity: 100%;}
+      }
