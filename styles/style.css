@@ -1,79 +1,97 @@
-body{
-    background-color: rgb(0, 0, 0);
+:root {
+    --background-color: rgb(0, 0, 0);
+    --color: white;
+  }
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
     font-family: 'Fira Sans', sans-serif;
     font-size: 17px;
-    color: white;
-    animation-name:visiblity;
-    animation-duration:1s;
-    animation-timing-function: ease-in-out;
-
+    animation: visiblity 1s ease-in-out;
 }
 
-
-header{
+header {
     position: relative;
-    top: 20px;
-    opacity: 70%;
+    top: 40px;
+    margin-bottom: 100px;
 }
-#name{
+
+#name {
     position: absolute;
-    top:70%;
-    left:55%;
-    font-size:4rem;
-    font-style:italic ;
+    top: 70%;
+    left: 45%;
+    font-size: 4rem;
+    font-style: italic;
 }
-@media only screen and (max-width:767px)
-{
-    header{
+
+@media only screen and (max-width:700px) {
+    header {
         position: relative;
-        top: 20px;
-        opacity: 70%;
     }
-    #name{
+
+    #name {
         position: absolute;
-        top:90%;
-        font-size:4rem;
-        font-style:italic ;
-       
+        font-size: 2rem;
+        font-style: italic;
     }
-    img.rounded{
+
+    img.rounded {
         position: relative;
-        width: 70%;
+        top: 50px;
+        width: 40%;
     }
 }
 
-img.rounded{
+@media only screen and (min-width:700px) and (max-width:1000px) {
+    header {
+        position: relative;
+    }
+
+    #name {
+        position: absolute;
+        font-size: 3rem;
+        font-style: italic;
+    }
+
+    img.rounded {
+        position: relative;
+        top: 50px;
+        width: 40%;
+    }
+}
+
+img.rounded {
     position: relative;
     left: 10%;
+    width: 30%;
+    height: auto;
 }
-footer{
+
+footer {
     position: relative;
     top: 200px;
     z-index: -1;
 }
 
-.row h1{
-    margin-top:120px;
-    text-align:center;
-       
+.row h1 {
+    margin-top: 120px;
+    text-align: center;
 }
 
-
-.row p{
+.row p {
     text-align: justify;
     padding: 50px;
-
 }
+
 .row img {
-    width:100%;
+    width: 100%;
     height: auto;
-    opacity: 70%;
+    display: block;
+    margin-top: 20px;
 }
 
-@keyframes visiblity
-      {
-        0% {  opacity: 0; }
-        100% {   opacity: 100%;}
-      }
-
-  
+@keyframes visiblity {
+    0%   {opacity: 0;}
+    100% {opacity: 100%;}
+}
