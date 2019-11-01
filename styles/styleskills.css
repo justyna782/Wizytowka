@@ -33,6 +33,7 @@ img.head_image {
   height: auto;
   margin: 20% auto;
   margin-bottom: 40%;
+  margin-left: 20%;
 }
 
 @keyframes visiblity {
