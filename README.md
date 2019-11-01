@@ -1,7 +1,7 @@
 # Strona wizytówka
 ## Justyna Twardzik
 
-![](images/images_readme/strona.jpg)
+![](images/images_readme/strona.JPG)
 
 ## Cel projektu:
 Celem projektu było stworzenie własnej strony typu wizytówka. Powstał on w ramach kursu organizowanego przez CodersCamp. Jest to pierwszy tego typu projekt a jego zadaniem było utrwalenie poznanego materiału dotyczącego HTML5 i CSS3. 
