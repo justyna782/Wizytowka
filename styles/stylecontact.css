@@ -4,7 +4,7 @@
 }
 
 body {
-    background: radial-gradient(circle, rgba(52,56,61,1) 52%, rgba(40,42,45,1) 80%);
+    background: radial-gradient(circle, rgba(52, 56, 61, 1) 52%, rgba(40, 42, 45, 1) 80%);
     color: var(--color);
     font-family: 'Fira Sans', sans-serif;
     font-size: 17px;
@@ -78,4 +78,4 @@ footer {
 @keyframes visiblity {
     0%   {opacity: 0;}
     100% {opacity: 100%;}
-}
+  }
